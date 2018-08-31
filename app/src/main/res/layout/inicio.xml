@@ -8,61 +8,112 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView18"
+        android:layout_width="372dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="ó inicia sesión con tus redes"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        tools:textSize="18sp" />
+
+    <TextView
         android:id="@+id/textView"
-        android:layout_width="187dp"
-        android:layout_height="41dp"
+        android:layout_width="221dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="¿Eres Nuevo?"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="72dp" />
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnregistro"
+        android:layout_width="151dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/botonredondo"
+        android:fontFamily="@font/press_start_2p"
         android:text="Registrarse"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="153dp" />
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="330dp"
+        android:layout_width="372dp"
         android:layout_height="58dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="¿Jugador Que Regresa?"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="268dp"
-        tools:textSize="30sp" />
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregistro"
+        tools:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="154dp"
+        android:layout_width="114dp"
         android:layout_height="108dp"
-        android:layout_marginBottom="170dp"
-        android:layout_marginEnd="339dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="371dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
         app:srcCompat="@drawable/face" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="112dp"
-        android:layout_height="170dp"
-        app:srcCompat="@drawable/twitter"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:layout_width="119dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/twitter" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="111dp"
-        android:layout_height="268dp"
-        app:srcCompat="@drawable/google"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:layout_width="109dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/google" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginStart="108dp"
+        android:background="@drawable/botonredondo"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Inicia Sesión"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </android.support.constraint.ConstraintLayout>

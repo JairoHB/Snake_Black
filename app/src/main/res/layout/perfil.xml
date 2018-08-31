@@ -11,9 +11,10 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Perfil"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="157dp"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
@@ -28,17 +29,19 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="JairoHB"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="132dp" />
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="123dp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Logros"
-        android:textSize="30sp"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="274dp" />
 
@@ -46,35 +49,39 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Nivel"
-        android:textSize="30sp"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="261dp"
         tools:layout_editor_absoluteY="274dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="12dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="Papi Master"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="333dp" />
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="311dp" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="99"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="292dp"
-        tools:layout_editor_absoluteY="333dp" />
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="311dp" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Records"
-        android:textSize="30sp"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="398dp" />
 
@@ -82,8 +89,9 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
         android:text="Amigos"
-        android:textSize="30sp"
+        android:textSize="18dp"
         tools:layout_editor_absoluteX="250dp"
         tools:layout_editor_absoluteY="398dp" />
 

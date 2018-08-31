@@ -11,10 +11,6 @@
         android:id="@+id/imageView10"
         android:layout_width="62dp"
         android:layout_height="48dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView10"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/arrow2"
         tools:layout_editor_absoluteY="3dp" />
 
@@ -22,40 +18,59 @@
         android:id="@+id/Compartit"
         android:layout_width="269dp"
         android:layout_height="55dp"
+        android:background="@drawable/botonredondo"
+        android:fontFamily="@font/press_start_2p"
         android:text="Compartir"
+        android:textSize="12sp"
         tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="473dp" />
+        tools:layout_editor_absoluteY="496dp" />
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
+        android:layout_width="48dp"
+        android:layout_height="15dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="1500"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="136dp" />
 
     <TextView
         android:id="@+id/tv2"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
+        android:layout_width="145dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="Puntuacion"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="79dp" />
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="94dp" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="96dp"
-        android:layout_height="27dp"
+        android:layout_width="102dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="30-08-2018"
-        tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="116dp" />
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="135dp" />
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="96dp"
+        android:layout_width="74dp"
         android:layout_height="23dp"
+        android:fontFamily="@font/press_start_2p"
         android:text="Fecha"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="78dp" />
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
+        android:textSize="24sp"
+        android:text="Records"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="51dp" />
 
 </android.support.constraint.ConstraintLayout>
